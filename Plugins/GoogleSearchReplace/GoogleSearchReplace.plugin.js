@@ -76,6 +76,7 @@ module.exports = (_ => {
 						Qwant: 				{value: false, 	name: "Qwant", 					url: "https://www.qwant.com/?t=all&q=" + textUrlReplaceString},
 						UrbanDictionary: 	{value: false, 	name: "Urban Dictionary", 		url: "https://www.urbandictionary.com/define.php?term=" + textUrlReplaceString},
 						Searx: 				{value: false, 	name: "Searx", 					url: "https://searx.info/?q=" + textUrlReplaceString},
+						Spotify: 			{value: false, 	name: "Spotify", 				url: "https://open.spotify.com/search/" + textUrlReplaceString},
 						StackOverflow: 		{value: true, 	name: "Stack Overflow", 		url: "https://stackoverflow.com/search?q=" + textUrlReplaceString},
 						Startpage: 			{value: false, 	name: "Startpage", 				url: "https://www.startpage.com/sp/search?q=" + textUrlReplaceString},
 						Whoogle: 			{value: false, 	name: "Whoogle", 				url: "https://search.sethforprivacy.com/search?q=" + textUrlReplaceString},
